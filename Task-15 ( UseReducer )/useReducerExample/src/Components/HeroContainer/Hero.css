@@ -1,0 +1,64 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.user-card {
+  border: 2px solid #e1d8d8;
+  border-radius: 10px;
+  padding: 20px;
+  width: 293px;
+  height: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.user-avatar {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgb(11, 244, 217);
+}
+
+.user-name {
+ text-transform: uppercase;
+  margin-top: 12px;
+  font-size: 20px;
+  color: #333;
+}
+
+.user-email,
+.user-role {
+  font-size: 15px;
+  color: #555;
+}
+
+
+/* buttons  */
+
+/* .btn{
+  gap:2px;
+} */
+.dlt-frnd{
+  width: 40%;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: #c72822;
+  color: #fff;
+}
+.add-frnd{
+  width: 40%;
+  padding: 8px;
+  background-color: #229a1e;
+  color: #fff;
+  border-radius: 15px;
+  border: 1px solid black;
+}

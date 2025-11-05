@@ -1,0 +1,131 @@
+/*--------------Navbar----------------*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 16px 32px;
+  /* color: white; */
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+   /* border-bottom: 1px solid grey; */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.Login {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: rgb(0, 0, 0); 
+  font-size: 16px;
+  transition: color 0.3s ease;
+  position: absolute;
+  right: 350px;
+}
+
+.account {
+  font-size: 22px;
+  color: inherit;
+}
+
+.lbtn {
+  font-weight: 500;
+  color: inherit;
+}
+
+.Login:hover {
+  color: #db4607; 
+}
+
+/*--------- Seller Icon -----------*/
+
+.seller {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: rgb(0, 0, 0); 
+  font-size: 16px;
+  transition: color 0.3s ease;
+  position: absolute;
+  right: 150px;
+}
+.seller_icon {
+  font-size: 20px;
+  color: inherit;
+}
+
+.seller_para {
+  font-weight: 500;
+  color: inherit;
+}
+
+.seller:hover {
+  color: #db4607; 
+}
+
+/*--------------SearchBar-------------*/
+.searchbar  {
+  width: 450px;
+  padding: 8px 20px;
+  /* margin-top: 15px; */
+  border-radius: 25px;
+  /* border: 1px solid black; */
+  outline: none;
+  font-size: 16px;
+  position: absolute;
+  border: 1px solid #2874f0; 
+  left: 18%;
+  top: 2.5%;
+}
+
+.search-icon {
+  font-size: 18px;
+  color: #555;
+  margin-right: 8px;
+  /* margin-top: 3px; */
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 350px;
+  /* padding: 6px; */
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+/*------------- DropDown ----------- */
+
+
+
+/* ----------------Cart Icon ---------- */
+.cart {
+  position: relative;
+}
+.cart_icon {
+  width: 30px;
+  height: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+

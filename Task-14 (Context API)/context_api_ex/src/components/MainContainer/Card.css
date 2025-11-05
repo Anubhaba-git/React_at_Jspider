@@ -1,0 +1,85 @@
+.card_container {
+  /* height: 500px; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* overflow: scroll; */
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+  padding: 30px;
+  background: #f4f4f4;
+}
+
+.card {
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0;
+  color: #333;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 12px;
+}
+
+.buy-now,
+.Add-cart {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buy-now {
+  background-color: #007bff;
+  color: white;
+}
+
+.buy-now:hover {
+  background-color: #0056b3;
+}
+
+.Add-cart {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.Add-cart:hover {
+  background-color: #e0a800;
+}

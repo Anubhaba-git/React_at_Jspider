@@ -365,9 +365,7 @@ Prevents bugs from version mismatches
 
 Makes builds more reliable
 
-## What are ther differnce between them?
-
-:
+## What are the differnce between them?
 
 🆚 Differences between package.json and package-lock.json
 
@@ -623,7 +621,7 @@ virtual dom= light weight copy of real dom.
 =>Comparing the new virtual dom with the old virtual dom and patching the upadated virtual dom with the real dom.
 Virtual dom(sir)
 => Reconciliation is the process React uses to update the UI efficiently. When a component's state or props change, React creates a new virtual DOM tree. It then compares this new virtual DOM with the previous one using a diffing algorithm to identify what has changed. Based on these differences, React updates only the necessary parts of the real DOM, minimizing performance costs and ensuring a smooth user experience.
-=>
+
 
 # 2. What are the difference between Real dom and Virtual dom?
 
